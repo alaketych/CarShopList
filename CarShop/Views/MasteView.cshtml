@@ -1,0 +1,38 @@
+﻿@{ 
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Maserati</title>
+    <link href="/1/CSS/styles.css" rel="stylesheet" type="text/css" />
+    <script src="/1/JS/jquery-1.11.0.min.js"></script>
+    <script src="/1/JS/scrypts.js"></script>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="header">
+            <img alt="Images" src="/1/images/Header.png" />
+        </div>
+        <div id="content">
+            <div id="nav">
+                <ul>
+                    <li><a title="Back to home page" href="/Home/Index"><img alt="Logo" src="/1/images/Logo.jpg" /></a></li>
+                    @Html.Action("Nav", "Home")
+                </ul>
+                <div id="map"><img src="/1/images/Map.jpg" alt="Map"></div>
+            </div>
+            <div id="main">
+                @RenderBody();
+            </div>
+        </div>
+        <div id="footer"><h6>Page was made by Alexandr Laketych<br>
+                            https://github.com/alaketych</h6>
+                          
+        </div>
+    </div>
+</body>
+</html>
+
