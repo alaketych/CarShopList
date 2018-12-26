@@ -9,4 +9,4 @@ The project includes technologies such as:
   - Entity FrameWork 6;
   - ADO.NET;
 
-https://user-images.githubusercontent.com/31369742/50457710-6823c680-0966-11e9-9f58-1a5208af16cd.png
+![mainpage](https://user-images.githubusercontent.com/31369742/50457880-a4a3f200-0967-11e9-8036-e8e4331c18ec.png)
