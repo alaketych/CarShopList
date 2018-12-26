@@ -8,6 +8,7 @@ The project includes technologies such as:
   - ASP.NET Razor;
   - Entity FrameWork 6;
   - ADO.NET;
+
 By the way some parts of code was been written on JS(Effects & logic).
 
 ![mainpage](https://user-images.githubusercontent.com/31369742/50457880-a4a3f200-0967-11e9-8036-e8e4331c18ec.png)
